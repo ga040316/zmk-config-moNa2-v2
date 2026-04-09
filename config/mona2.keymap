@@ -21,19 +21,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        MB1 {
-            bindings = <&mkp MB1>;
-            key-positions = <17 18>;
-        };
-
-        MB2 {
-            bindings = <&mkp MB2>;
-            key-positions = <18 19>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     macros {
         to_layer_0: to_layer_0 {
